@@ -7,7 +7,7 @@ from io import BytesIO
 from PIL import Image
 
 # --- الإعدادات ---
-API_KEYS ="AIzaSyD6yGzaE29M8tLhnEagCZgqQmZ28o38jLU","AIzaSyDkDasg1smdUE11GkCKmb6v3HQfUdp0sQk"
+API_KEYS ="AIzaSyDkDasg1smdUE11GkCKmb6v3HQfUdp0sQk"
 DIGEN_TOKEN = "4d6574614147492e47656e495863207c18fe61ba104a5e27bbb63c1656:1776520:1761356827"
 
 GEMINI_API_URL_TEMPLATE = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={}"
