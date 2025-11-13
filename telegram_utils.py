@@ -12,7 +12,7 @@ if not BOT_TOKEN:
 
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 SESSION = requests.Session()
-DATA_DIR = '/data'
+DATA_DIR = '.'
 if not os.path.exists(DATA_DIR): os.makedirs(DATA_DIR)
 SESSIONS_FILE = os.path.join(DATA_DIR, 'chat_sessions.json')
 
