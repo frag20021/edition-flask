@@ -5,7 +5,7 @@ import time
 import base64
 
 # --- الإعدادات الخاصة بتيليجرام ---
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN ="8063132617:AAF_W79QZ4SLE3eC25YbS5fX20rAQNLs-04"
 if not BOT_TOKEN:
     print("FATAL ERROR: Bot Token missing!")
     exit()
